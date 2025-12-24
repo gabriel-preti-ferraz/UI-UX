@@ -1,0 +1,40 @@
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+div {
+    background: var(--gradient);
+    padding: 1.5rem;
+    border-radius: 1rem;
+    border: var(--border-card);
+    border-top: 1px solid var(--highlight);
+    box-shadow: var(--shadow);
+}
+
+div:hover {
+    background: var(--gradient-hover);
+}
+
+h1 {
+    color: var(--text);
+    font: var(--h1);
+    margin-bottom: 0.5rem;
+}
+
+p {
+    font: var(--p);
+}
+
+button {
+    background: var(--bg-light);
+    padding: 0.5rem 1rem 0.7rem 1rem;
+    font: var(--h4);
+    color: var(--text);
+    border-radius: 0.5rem;
+    margin-top: 1.5rem;
+    border: var(--border-card);
+    box-shadow: var(--shadow);
+}
